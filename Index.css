@@ -1,0 +1,204 @@
+/*Format header with background color, margin, and shadow */
+header{
+    background-color:white;
+    border-bottom: solid;
+    border-bottom-color: black;
+    position: sticky;
+    top: 0;
+    margin-top:-20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 5px #27272780;
+    -webkit-box-shadow: 0 10px 5px #27272780;
+    -moz-box-shadow: 0 10px 5px #27272780;
+    z-index: 999999;
+}
+
+/*Decrease the margin under the title */
+.title {
+    margin-bottom: -15px;
+}
+
+/*Format h1 to have a thick san-serif font */
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding:10px;
+}
+
+/*Format h2 the same as h1, increase the size, and center align */
+h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 175%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Add a Red background color to the top navigation */
+.topnav {
+    background-color: #CB4A3F;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a darker red color to the active/current link */
+.topnav a.active {
+    background-color: darkred;
+    color: white;
+}
+
+/* Remove the margins and padding from the body section*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.textalign{
+    text-align:center;
+}
+
+/*Format for bxslider widget*/
+.bx-wrapper {
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Format the about us paragraph to the center and increase size for readability */
+.aboutCenter{
+    text-align: center;
+    font-size: 110%;
+    font-family: serif;
+}
+
+/*Format image to center, give it a border for rounded edges, and create a shadow around it */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.75rem dimgrey);
+}
+
+/*Format the form to be center aligned */
+form{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+/*Format the input type text to have wider margins for easier use and reading */
+input[type=text] {
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+/*Format type email the same as text */
+input[type=email] {
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+/*Format the text area to have the text at the top */
+textarea{
+    margin-top:25px;
+    padding:10px;
+}
+
+/*Format form entry tobe outlined in red when required and invalid */
+input:required:invalid, input:focus:invalid {
+    outline-color: #FF0000;
+}
+
+
+/*Format for submit button */
+input[type=submit] {
+    font-weight:bold;
+    padding:7px 20px;
+    background: #a5a2a2;
+    border:1px solid;
+    cursor:pointer;
+    border-radius: 5px;
+    margin: 10px 0 25px 0;
+}
+
+/* format for table*/
+table, th, td {
+    background-color: #DCDCDC;
+    margin: 25px auto 15px auto;
+    padding: 5px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+/* format for zoom plugin*/
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+
+/*display for zoom img of plugin */
+.zoom img {
+    display: block;
+}
+
+.zoom img::selection { background-color: transparent; }
+
+/*Format the footer to have a top border that is solid black */
+footer{
+    border-top:solid;
+    border-top-color: black;
+    background-color: darkred;
+    color: ghostwhite;
+    position:absolute;
+    width: 100%;
+}
+
+/*Format the footer links title to be bold and underlined with no margin */
+.footerLinksTitle{
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Format footer quick links to be goldenrod instead of blue */
+.footerLinks a{
+    color:goldenrod;
+}
+
+/*Remove the underline from links */
+a:link{
+    text-decoration: none;
+}
+
+/*Remove bullet points, margins, and padding from unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Align year created and phone number in footer to right */
+.footerTag{
+    text-align: right;
+    margin:0 5px;
+    padding:7px;
+}

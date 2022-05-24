@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jqueryValidate.js"></script>
+    <script src="Contact.js"></script>
+</head>
+<body>
+<header>
+    <!-- Watson Productions title -->
+    <h1 class="title">Watson Productions</h1>
+    <!-- For people who don't have JavaScript enabled-->
+    <noscript>This web page requires JavaScript to be enabled on your browser.</noscript>
+    <!-- Navigation bar with links to each webpage -->
+    <div class="topnav">
+        <a href="https://webpages.uncc.edu/jgentr11/assignments/Index.html">Home</a>
+        <a href="https://webpages.uncc.edu/jgentr11/assignments/Products.html">Products</a>
+        <a class="active" href="https://webpages.uncc.edu/jgentr11/assignments/Contact.html">Contact</a>
+        <a href="https://webpages.uncc.edu/jgentr11/assignments/AboutUs.html">About</a>
+    </div>
+</header>
+
+<main>
+    <!-- Form taking name, email, subject, and an email message to send to the owner -->
+    <h2>Contact Us</h2>
+    <form id="form" action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" size="25" data-validation="required"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"  placeholder="sample@gmail.com" size="25" data-validation="required email"><br>
+        <label for="subject"> What can we help you with?</label>
+
+        <select name="subject" id="subject">
+            <option value="specific">Looking for certain style</option>
+            <option value="custom">Wanting to order a custom</option>
+            <option value="customerService">Customer Service</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <textarea rows="6" cols="45">Tell about what you are contacting us for.</textarea><br>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</main>
+
+<footer>
+    <!-- Footer quick links to help easily navigate through the website -->
+    <p class="footerLinksTitle">Quick links</p>
+    <div class="footerLinks">
+        <ul>
+            <li><a href="https://webpages.uncc.edu/jgentr11/assignments/Products.html">Products</a></li>
+            <li><a href="https://webpages.uncc.edu/jgentr11/assignments/Contact.html">Contact</a></li>
+            <li><a href="https://webpages.uncc.edu/jgentr11/assignments/AboutUs.html">About</a></li>
+        </ul>
+    </div>
+
+    <!-- Footer tag with contact number and the year created -->
+    <p class="footerTag"><strong>(336)-755-6284</strong><br>
+    2021 Watson Productions</p>
+</footer>
+</body>
+</html>
